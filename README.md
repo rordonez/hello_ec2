@@ -53,7 +53,7 @@ cd tf
 terraform apply -var-file=environments/dev/terraform.tfvars
 ```
 
-To run load testing script run:
+To run load testing script, install `k6` locally and then run:
 
 ```shell script
 k6 run load_test.sh
